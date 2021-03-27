@@ -1,0 +1,5 @@
+[31-Dec-2020 08:45:41 UTC] PHP Notice:  Undefined index: name in /home/ynd2ux5pep0p/public_html/aarcon/razorpay/pay.php on line 56
+[31-Dec-2020 08:45:41 UTC] PHP Notice:  Undefined index: email in /home/ynd2ux5pep0p/public_html/aarcon/razorpay/pay.php on line 57
+[31-Dec-2020 08:45:41 UTC] PHP Notice:  Undefined index: mobile in /home/ynd2ux5pep0p/public_html/aarcon/razorpay/pay.php on line 58
+[31-Dec-2020 08:45:41 UTC] PHP Notice:  Undefined index: name in /home/ynd2ux5pep0p/public_html/aarcon/razorpay/checkout/manual.php on line 3
+[31-Dec-2020 08:45:41 UTC] PHP Notice:  Undefined index: email in /home/ynd2ux5pep0p/public_html/aarcon/razorpay/checkout/manual.php on line 4

@@ -1,0 +1,33 @@
+.social-strip{
+    position: sticky;
+    height: 35px;
+    background-color: #d61c1c;
+    top: 0;
+}
+
+.social-strip ul{
+    list-style-type: none;
+    color: white;
+    position: absolute;
+    right: 1px;
+   /* float: right;*/
+    /*display: flex;
+    flex-direction: right;*/
+}
+.social-strip li{
+    display: inline-block;
+}
+
+.social-strip ul li a{
+    color: white;
+}
+.social-strip ul li a:hover{
+    text-decoration: none;
+    color: silver;
+}
+
+#icon-font{
+    font-size: 1.1em;
+    color: white;
+    margin-top: 8px;
+}
