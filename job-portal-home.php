@@ -425,6 +425,11 @@
         
     </div>
   </section>
+
+  <div id="dt_tbl">
+    
+  </div>
+
   <?php include 'big-footer-nomt.php' ?>
   <a href="#" class="scrollToTop"><i class="fas fa-arrow-circle-up"></i></a>
 
@@ -495,6 +500,28 @@
 
     // body...
     $("html,body").animate({scrollTop: 0}, 2000)
+    })
+  });
+
+
+  $(document).ready(function () {
+    function loadtable(page) {
+        $.ajax({
+        url: "job_pagination.php",
+        type: "POST",
+        data: {page_no: page},
+        success: function (data) {
+          $('#dt_tbl').html(data);
+        }
+      })
+    }
+    loadtable();
+    //Pagination Code
+    $(document).on("click","#pagination a",function(e) {
+      e.preventDefault();
+      var page_id = $(this).attr("id");
+
+      loadtable(page_id);
     })
   });
   </script>
