@@ -33,7 +33,7 @@
                 <div class="container-fluid h-100">
                     <div class="row h-100 align-items-center">
                         <div class="col-md-4 p-0 d-none d-md-block" id="img-cont">
-                            <img src="images/jobseeker3.png" >
+                            <img src="images/jobseeker-reg.jpg" >
                         </div>
                         <div class="col-md-8 form-col-reg p-4">   
                             <ul class="nav nav-tabs d-flex justify-content-md-start justify-content-center mt-3 ml-md-5">
@@ -282,13 +282,13 @@
             confirm_password2.onkeyup = validatePassword2;
             $(document).ready(function(){
             $('#jobsk-tab').on('click', function() {
-            $('#img-cont').html('<img src="images/jobseeker3.png" style="height: 100%; width: 100%;">');
+            $('#img-cont').html('<img src="images/jobseeker-reg.jpg" style="height: 100%; width: 100%;">');
             })
             $('#emp-tab').on('click', function(){
-                $('#img-cont').html('<img src="images/employer8.png" style="height: 100%; width: 100%;">');
+                $('#img-cont').html('<img src="images/employer-reg.jpg" style="height: 100%; width: 100%;">');
             })
             $('#inst-part-tab').on('click', function(){
-                $('#img-cont').html('<img src="images/institute-partner.png" style="height: 100%; width: 100%;">');
+                $('#img-cont').html('<img src="images/institute-partner-reg.jpg" style="height: 100%; width: 100%;">');
             })
             });
             jQuery('#emp_reg').on('submit', function (e) {

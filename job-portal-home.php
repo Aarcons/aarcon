@@ -33,6 +33,26 @@
 
   gtag('config', 'G-0PWJWQKF7C');
 </script>
+<style type="text/css">
+  #text {
+    display: none!important;
+  }
+  #pagination .pages,#pagination .active{
+    font-size: 0.8rem;
+    padding: 1rem;
+    border: 1px solid #eee;
+    border-radius: 50%;
+    display: inline-flex;
+    line-height: 0.5;
+    margin: 0.5rem 0.5rem 0 0rem;
+    background-color: #d1dae8;
+    text-decoration: none;
+    color: #000;
+  }
+  #pagination .active{
+    background-color: #fff;
+  }
+</style>
 </head>
 <body id="job-home">
   <?php include 'flex-strip.php' ?>
@@ -71,175 +91,10 @@
         </ul>
         <div class="tab-content">
           <div id="latestjobs" class="container tab-pane active">
-            <div class="col-12 list-section">
-              <div class="row">
-                <ul class="job-title">
-                  <li>
-                    <h4>Assistant Editor</h4>
-                    <p>Germany</p>
-                  </li>
-                </ul>
-                <ul class="job-date">
-                  <li>
-                    <p>Type: Contract</p>
-                    <p>Date: 23/12/2019</p>
-                  </li>
-                </ul>
-                <ul class="job-button">
-                  <li>
-                    <button type="button" class="btn btn-primary">Apply Now</button>
-                  </li>
-                </ul>
-                <ul class="icon">
-                  <li>
-                    <i class="far fa-heart"></i>
-                  </li>
-                </ul>
-              </div>
-              <div class="row">
-                <ul class="job-title">
-                  <li>
-                    <h4>Assistant Editor</h4>
-                    <p>Germany</p>
-                  </li>
-                </ul>
-                <ul class="job-date">
-                  <li>
-                    <p>Type: Contract</p>
-                    <p>Date: 23/12/2019</p>
-                  </li>
-                </ul>
-                <ul class="job-button">
-                  <li>
-                    <button type="button" class="btn btn-primary">Apply Now</button>
-                  </li>
-                </ul>
-                <ul class="icon">
-                  <li>
-                    <i class="far fa-heart"></i>
-                  </li>
-                </ul>
-              </div>
-              <div class="row">
-                <ul class="job-title">
-                  <li>
-                    <h4>Assistant Editor</h4>
-                    <p>Germany</p>
-                  </li>
-                </ul>
-                <ul class="job-date">
-                  <li>
-                    <p>Type: Contract</p>
-                    <p>Date: 23/12/2019</p>
-                  </li>
-                </ul>
-                <ul class="job-button">
-                  <li>
-                    <button type="button" class="btn btn-primary">Apply Now</button>
-                  </li>
-                </ul>
-                <ul class="icon">
-                  <li>
-                    <i class="far fa-heart"></i>
-                  </li>
-                </ul>
-              </div>
-              <div class="row">
-                <ul class="job-title">
-                  <li>
-                    <h4>Assistant Editor</h4>
-                    <p>Germany</p>
-                  </li>
-                </ul>
-                <ul class="job-date">
-                  <li>
-                    <p>Type: Contract</p>
-                    <p>Date: 23/12/2019</p>
-                  </li>
-                </ul>
-                <ul class="job-button">
-                  <li>
-                    <button type="button" class="btn btn-primary">Apply Now</button>
-                  </li>
-                </ul>
-                <ul class="icon">
-                  <li>
-                    <i class="far fa-heart"></i>
-                  </li>
-                </ul>
-              </div>
-              <div class="row">
-                <ul class="job-title">
-                  <li>
-                    <h4>Assistant Editor</h4>
-                    <p>Germany</p>
-                  </li>
-                </ul>
-                <ul class="job-date">
-                  <li>
-                    <p>Type: Contract</p>
-                    <p>Date: 23/12/2019</p>
-                  </li>
-                </ul>
-                <ul class="job-button">
-                  <li>
-                    <button type="button" class="btn btn-primary">Apply Now</button>
-                  </li>
-                </ul>
-                <ul class="icon">
-                  <li>
-                    <i class="far fa-heart"></i>
-                  </li>
-                </ul>
-              </div>
-              <div class="row">
-                <ul class="job-title">
-                  <li>
-                    <h4>Assistant Editor</h4>
-                    <p>Germany</p>
-                  </li>
-                </ul>
-                <ul class="job-date">
-                  <li>
-                    <p>Type: Contract</p>
-                    <p>Date: 23/12/2019</p>
-                  </li>
-                </ul>
-                <ul class="job-button">
-                  <li>
-                    <button type="button" class="btn btn-primary">Apply Now</button>
-                  </li>
-                </ul>
-                <ul class="icon">
-                  <li>
-                    <i class="far fa-heart"></i>
-                  </li>
-                </ul>
-              </div>
-              <div class="row">
-                <ul class="job-title">
-                  <li>
-                    <h4>Assistant Editor</h4>
-                    <p>Germany</p>
-                  </li>
-                </ul>
-                <ul class="job-date">
-                  <li>
-                    <p>Type: Contract</p>
-                    <p>Date: 23/12/2019</p>
-                  </li>
-                </ul>
-                <ul class="job-button">
-                  <li>
-                    <button type="button" class="btn btn-primary">Apply Now</button>
-                  </li>
-                </ul>
-                <ul class="icon">
-                  <li>
-                    <i class="far fa-heart"></i>
-                  </li>
-                </ul>
-              </div>
+            <div class="col-12 list-section" id="ljobs">
+              <!-- <div id="dt_tbl">
+                
+              </div> -->
             </div>
           </div>
         </div>
@@ -426,9 +281,9 @@
     </div>
   </section>
 
-  <div id="dt_tbl">
-    
-  </div>
+  <!-- <div id="dt_tbl">
+    <button type="submit" class="btn" onclick="window.location = 'register.php'">Read More</button>
+  </div> -->
 
   <?php include 'big-footer-nomt.php' ?>
   <a href="#" class="scrollToTop"><i class="fas fa-arrow-circle-up"></i></a>
@@ -511,7 +366,7 @@
         type: "POST",
         data: {page_no: page},
         success: function (data) {
-          $('#dt_tbl').html(data);
+          $('#ljobs').html(data);
         }
       })
     }
